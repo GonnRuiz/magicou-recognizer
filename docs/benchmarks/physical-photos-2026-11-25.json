@@ -1,0 +1,90 @@
+{
+  "source": "https://github.com/HanClinto/CollectorVision/tree/main/examples/images",
+  "coverage": {
+    "catalog_faces": 115084,
+    "indexed_faces": 115084,
+    "complete": true,
+    "created_at": "2026-11-25T18:09:52.707495+00:00"
+  },
+  "photos": [
+    {
+      "file": "7286819f-6c57-4503-898c-528786ad86e9_sample.jpg",
+      "passed": true,
+      "status": "ambiguous",
+      "winner": {
+        "id": "mtg-7286819f-6c57-4503-898c-528786ad86e9",
+        "scryfall_id": "7286819f-6c57-4503-898c-528786ad86e9",
+        "oracle_id": "ca16b32c-3f1e-4f8d-821a-064f922c45d8",
+        "illustration_id": "7f3311e9-fe52-47a3-aaf6-4bbb298c6e20",
+        "face_index": 0,
+        "name": "Scrying Glass",
+        "set": "uds",
+        "number": "137",
+        "lang": "en",
+        "image_url": "https://cards.scryfall.io/normal/front/7/2/7286819f-6c57-4503-898c-528786ad86e9.jpg?1783946055",
+        "finishes": [
+          "nonfoil",
+          "foil"
+        ],
+        "similarity": 0.8007692098617554,
+        "geometric_inliers": 70
+      },
+      "duration_ms": 6972
+    },
+    {
+      "file": "d0def54b-9f0a-4ab1-9df9-25506a06350c_hidden_name.jpg",
+      "passed": true,
+      "status": "ambiguous",
+      "winner": {
+        "id": "mtg-6d8b5383-f4cf-45e7-aefc-7f3a42748a8e",
+        "scryfall_id": "6d8b5383-f4cf-45e7-aefc-7f3a42748a8e",
+        "oracle_id": "ec9975f4-dfff-4b72-9da8-8f2025f0524a",
+        "illustration_id": "c074f182-7fb2-4133-9fe0-e4254a8a148a",
+        "face_index": 0,
+        "name": "Rush of Adrenaline",
+        "set": "j22",
+        "number": "592",
+        "lang": "en",
+        "image_url": "https://cards.scryfall.io/normal/front/6/d/6d8b5383-f4cf-45e7-aefc-7f3a42748a8e.jpg?1783918913",
+        "finishes": [
+          "nonfoil"
+        ],
+        "similarity": 0.7490705251693726,
+        "geometric_inliers": 64
+      },
+      "duration_ms": 5521
+    },
+    {
+      "file": "f31a6dfd-93d2-49c8-a357-9a707b9c42bd_deep_skew.jpg",
+      "passed": true,
+      "status": "ambiguous",
+      "winner": {
+        "id": "mtg-f31a6dfd-93d2-49c8-a357-9a707b9c42bd",
+        "scryfall_id": "f31a6dfd-93d2-49c8-a357-9a707b9c42bd",
+        "oracle_id": "2e03e44a-9fff-4490-859f-b42e89e8563a",
+        "illustration_id": "e371136b-01a6-4b49-913c-79775d9381aa",
+        "face_index": 0,
+        "name": "Chromatic Sphere",
+        "set": "mrd",
+        "number": "151",
+        "lang": "en",
+        "image_url": "https://cards.scryfall.io/normal/front/f/3/f31a6dfd-93d2-49c8-a357-9a707b9c42bd.jpg?1783944527",
+        "finishes": [
+          "nonfoil",
+          "foil"
+        ],
+        "similarity": 0.7193976640701294,
+        "geometric_inliers": 120
+      },
+      "duration_ms": 5308
+    }
+  ],
+  "full_catalog_snapshot": true,
+  "negative_controls_rejected": true,
+  "passed": true,
+  "limitations": [
+    "Only three independent photos",
+    "Not a physical iPhone camera permission test",
+    "Exact edition/finish still needs confirmation"
+  ]
+}

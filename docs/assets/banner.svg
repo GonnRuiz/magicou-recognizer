@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Magicou Recognizer</title>
+  <desc id="desc">A self-hosted visual recognition toolkit for Magic: The Gathering, illustrated with abstract cards.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#17152c"/><stop offset="1" stop-color="#3d2c49"/></linearGradient>
+    <linearGradient id="card" x2="1" y2="1"><stop stop-color="#e6d8fc"/><stop offset="1" stop-color="#d0eee3"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#bba0f7" stop-opacity=".24"/><stop offset="1" stop-color="#bba0f7" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="300" rx="20" fill="url(#bg)"/>
+  <ellipse cx="965" cy="160" rx="310" ry="230" fill="url(#glow)"/>
+  <path d="M42 260H1158" stroke="#fff" stroke-opacity=".1"/>
+  <text x="56" y="66" fill="#c5eadc" font-family="ui-monospace,monospace" font-size="13" letter-spacing="4">A TOOLKIT FOR CARD BUILDERS</text>
+  <text x="52" y="143" fill="#fbf5ff" font-family="Georgia,serif" font-size="65">Magicou Recognizer</text>
+  <text x="56" y="185" fill="#d2c9df" font-family="Arial,sans-serif" font-size="19">From a photo to a printing. On your own infrastructure.</text>
+  <text x="56" y="229" fill="#b9accb" font-family="ui-monospace,monospace" font-size="12" letter-spacing="2">PYTHON / ONNX / OPENCV / SCRYFALL</text>
+  <g transform="translate(864 38) rotate(-13 70 108)">
+    <rect width="145" height="214" rx="13" fill="#29243e" stroke="#b7a2d5" stroke-opacity=".6"/>
+    <rect x="14" y="18" width="117" height="116" rx="8" fill="#a493c0" fill-opacity=".18"/>
+    <path d="M23 160H118M23 174H99M23 188H109" stroke="#b7a2d5" stroke-opacity=".6" stroke-width="3"/>
+  </g>
+  <g transform="translate(976 48) rotate(9 70 108)">
+    <rect width="145" height="214" rx="13" fill="url(#card)"/>
+    <rect x="12" y="13" width="121" height="17" rx="5" fill="#575078" fill-opacity=".2"/>
+    <rect x="12" y="39" width="121" height="105" rx="8" fill="#302b48"/>
+    <path d="M72 56L92 91L72 127L52 91Z" fill="none" stroke="#d8c5f5" stroke-width="2"/>
+    <circle cx="72" cy="91" r="17" fill="none" stroke="#b9e7d5" stroke-width="2"/>
+    <path d="M20 165H125M20 179H105M20 193H115" stroke="#514a6b" stroke-opacity=".5" stroke-width="3"/>
+  </g>
+  <path d="M815 74v16m-8-8h16m318 145v12m-6-6h12" stroke="#e1c6f9" stroke-opacity=".65" stroke-width="2"/>
+</svg>

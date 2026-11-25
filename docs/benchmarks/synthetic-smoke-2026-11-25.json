@@ -1,0 +1,95 @@
+{
+  "benchmark": "synthetic reference-derived smoke test; not independent physical photos",
+  "coverage": {
+    "catalog_faces": 115084,
+    "indexed_faces": 100,
+    "complete": false,
+    "created_at": "2026-11-25T11:40:07.276579+00:00"
+  },
+  "samples": 10,
+  "results": [
+    {
+      "expected_id": "0000419b-0bba-4488-8f7a-6194544ce91e",
+      "predicted_id": "0000419b-0bba-4488-8f7a-6194544ce91e",
+      "correct_top1_printing": true,
+      "status": "ambiguous",
+      "duration_ms": 653
+    },
+    {
+      "expected_id": "0000579f-7b35-4ed3-b44c-db2a538066fe",
+      "predicted_id": "0000579f-7b35-4ed3-b44c-db2a538066fe",
+      "correct_top1_printing": true,
+      "status": "ambiguous",
+      "duration_ms": 652
+    },
+    {
+      "expected_id": "00006596-1166-4a79-8443-ca9f82e6db4e",
+      "predicted_id": "00006596-1166-4a79-8443-ca9f82e6db4e",
+      "correct_top1_printing": true,
+      "status": "ambiguous",
+      "duration_ms": 637
+    },
+    {
+      "expected_id": "0000a54c-a511-4925-92dc-01b937f9afad",
+      "predicted_id": "0000a54c-a511-4925-92dc-01b937f9afad",
+      "correct_top1_printing": true,
+      "status": "ambiguous",
+      "duration_ms": 648
+    },
+    {
+      "expected_id": "0000cd57-91fe-411f-b798-646e965eec37",
+      "predicted_id": "0000cd57-91fe-411f-b798-646e965eec37",
+      "correct_top1_printing": true,
+      "status": "ambiguous",
+      "duration_ms": 576
+    },
+    {
+      "expected_id": "00012bd8-ed68-4978-a22d-f450c8a6e048",
+      "predicted_id": "00012bd8-ed68-4978-a22d-f450c8a6e048",
+      "correct_top1_printing": true,
+      "status": "ambiguous",
+      "duration_ms": 570
+    },
+    {
+      "expected_id": "0001b4a6-10bf-4bdd-a9da-fe78d9d39a82",
+      "predicted_id": "0001b4a6-10bf-4bdd-a9da-fe78d9d39a82",
+      "correct_top1_printing": true,
+      "status": "ambiguous",
+      "duration_ms": 549
+    },
+    {
+      "expected_id": "0001c639-8bd0-426f-89cb-4ca61f3cc054",
+      "predicted_id": "0001c639-8bd0-426f-89cb-4ca61f3cc054",
+      "correct_top1_printing": true,
+      "status": "ambiguous",
+      "duration_ms": 561
+    },
+    {
+      "expected_id": "0001e77a-7fff-49d2-a55c-42f6fdf6db08",
+      "predicted_id": "0001e77a-7fff-49d2-a55c-42f6fdf6db08",
+      "correct_top1_printing": true,
+      "status": "ambiguous",
+      "duration_ms": 652
+    },
+    {
+      "expected_id": "0001f1ef-b957-4a55-b47f-14839cdbab6f",
+      "predicted_id": "0001f1ef-b957-4a55-b47f-14839cdbab6f",
+      "correct_top1_printing": true,
+      "status": "ambiguous",
+      "duration_ms": 566
+    }
+  ],
+  "correct_top1": 10,
+  "latency_ms": {
+    "median": 606.5,
+    "p95": 652.55
+  },
+  "blank_negative_rejected": true,
+  "limitations": [
+    "Small partial gallery",
+    "Reference-derived inputs",
+    "No physical iPhone camera test",
+    "No finish/condition inference",
+    "Default language export; not every language"
+  ]
+}
